@@ -15,10 +15,10 @@ frame_files = sorted(glob(f"{FRAMES_DIR}/*.jpg"))
 
 # submit every SAMPLE_INTERVAL frame to the detector in the first half of the video
 for frame_file in frame_files[:len(frame_files)//2:SAMPLE_INTERVAL]:
-		# load frame
-		frame = cv2.imread(frame_file)
-		# resize frame to 640x480 for faster processing
-		frame = cv2.resize(frame, (640, 480))
-		iq: ImageQuery = gl.submit_image_query(detector=detector, image=frame)
-		print("count: ", iq.result.count)
-		print("confidence: ", iq.result.confidence)		
+	# load frame
+	frame = cv2.imread(frame_file)
+	# resize frame to 640x480 for faster processing
+	frame = cv2.resize(frame, (640, 480))
+	iq: ImageQuery = gl.submit_image_query(detector=detector, image=frame)
+	print("count: ", iq.result.count)
+	print("confidence: ", iq.result.confidence)		
