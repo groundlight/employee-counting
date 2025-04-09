@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "employee-counting"
+version = "0.1.0"
+description = ""
+authors = ["amir"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+groundlight = "^0.22.4"
+opencv-python = "^4.11.0.86"
+scipy = "^1.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
