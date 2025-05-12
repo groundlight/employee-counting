@@ -94,4 +94,9 @@ This helps validate detections and assess system accuracy.
 ## Additional Resources
 
 - [**Groundlight Python SDK Documentation**](https://code.groundlight.ai/python-sdk/docs/guide): Learn more about detectors and image queries  
-- [**Counting Detectors Guide**](https://code.groundlight.ai/python-sdk/docs/answer-modes/counting-detectors): Configure thresholds, visualize boxes  
+- [**Counting Detectors Guide**](https://code.groundlight.ai/python-sdk/docs/answer-modes/counting-detectors): Configure thresholds, visualize boxes
+
+## License
+
+This project is licensed under the [Apache License 2.0](LICENSE).
+
