@@ -1,6 +1,11 @@
 # Employee Counting with Groundlight
 
-This repository uses the [Groundlight](https://groundlight.ai) service to count the number of employees entering and exiting through a doorway.
+This repository uses the [Groundlight](https://groundlight.ai) computer vision platform to count the number of employees entering and exiting through a doorway. <i>(Note: you will need at least a Business-level account to access Groundlight's Counting mode - email support@groundlight.ai if you're interested in a free one month trial.)</i>
+
+<p><strong>Click the video below to preview the final output on Youtube:</strong></p>
+<a href="https://youtu.be/s8qP3e65unk" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.youtube.com/vi/s8qP3e65unk/0.jpg" alt="Watch on YouTube" width="60%" />
+</a>
 
 ## Quick Overview
 
@@ -40,6 +45,7 @@ Sign up at [dashboard.groundlight.ai](https://dashboard.groundlight.ai) and retr
 ```bash
 export GROUNDLIGHT_API_TOKEN='your-api-token'
 ```
+<img src="https://cdn.prod.website-files.com/664b7cc2ac49aeb2da6ef0f4/6823a63169bbb9bdc3eff8a5_APItoken.png" alt="API Token Screenshot" width="60%" />
 
 ---
 
@@ -93,8 +99,8 @@ This helps validate detections and assess system accuracy.
 
 ## Additional Resources
 
-- [**Groundlight Python SDK Documentation**](https://code.groundlight.ai/python-sdk/docs/guide): Learn more about detectors and image queries  
-- [**Counting Detectors Guide**](https://code.groundlight.ai/python-sdk/docs/answer-modes/counting-detectors): Configure thresholds, visualize boxes
+- [**Groundlight Python SDK Documentation**](https://code.groundlight.ai/python-sdk/docs/getting-started): Get started with Groundlight's Python SDK
+- [**Counting Detectors Guide**](https://code.groundlight.ai/python-sdk/docs/answer-modes/counting-detectors): Get started with Groundlight's Counting Mode
 
 ## License
 
