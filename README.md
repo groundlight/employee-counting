@@ -2,10 +2,15 @@
 
 This repository uses the [Groundlight](https://groundlight.ai) computer vision platform to count the number of employees entering and exiting through a doorway. <i>(Note: you will need at least a Business-level account to access Groundlight's Counting mode - email support@groundlight.ai if you're interested in a free one month trial.)</i>
 
-<p><strong>Click the video below to preview the final output on Youtube:</strong></p>
-<a href="https://youtu.be/s8qP3e65unk" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.youtube.com/vi/s8qP3e65unk/0.jpg" alt="Watch on YouTube" width="60%" />
-</a>
+<p align="center">
+<img src="results/Final_Counting_demo_with_dashboard.webp" alt="Demo GIF" width="640" />
+</p>
+
+<p align="center">
+  <a href="https://vimeo.com/1086127262" target="_blank">
+    Watch in full resolution on Vimeo
+  </a>
+</p>
 
 ## Quick Overview
 
