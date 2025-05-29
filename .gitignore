@@ -1,0 +1,3 @@
+video/*
+!video/counting_video.mp4
+__pycache__
