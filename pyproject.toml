@@ -10,7 +10,7 @@ python = "^3.11"
 groundlight = "^0.22.4"
 opencv-python = "^4.11.0.86"
 scipy = "^1.15.2"
-
+argparse = "^1.1"
 
 [build-system]
 requires = ["poetry-core"]
